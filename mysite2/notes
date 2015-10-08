@@ -1,0 +1,103 @@
+(
+  ('Entisols', (
+          ('Aquents', 'Aquents'),
+          ('Arents', 'Arents'),
+          ('Fluvents', 'Fluvents'),
+          ('Orthents', 'Orthents'),
+          ('Psammets', 'Psammets'),
+      )
+  ),
+  ('Inceptisols', (
+          ('Anthrepts', 'Anthrepts'),
+          ('Aquepts', 'Aquepts'),
+          ('Cryepts', 'Cryepts'),
+          ('Udepts', 'Udepts'),
+          ('Ustepts', 'Ustepts'),
+          ('Xerepts', 'Xerepts'),
+      )
+  ),
+  ('Andisols', (
+          ('Aquands', 'Aquands'),
+          ('Cryands', 'Cryands'),
+          ('Torrands', 'Torrands'),
+          ('Udands', 'Udands'),
+          ('Ustands', 'Ustands'),
+          ('Vitrands', 'Vitrands'),
+          ('Xerands', 'Xerands'),
+      )
+  ),
+  ('Gelisols', (
+          ('Histels', 'Histels'),
+          ('Orthels', 'Orthels'),
+          ('Turbels', 'Turbels'),
+      )
+  ),
+  ('Histosols', (
+          ('Fibrists', 'Fibrists'),
+          ('Folists', 'Folists'),
+          ('Hemists', 'Hemists'),
+          ('Saprists', 'Saprists'),
+      )
+  ),
+  ('Aridisols', (
+          ('Argids', 'Argids'),
+          ('Calcids', 'Calcids'),
+          ('Cambids', 'Cambids'),
+          ('Cryids', 'Cryids'),
+          ('Durids', 'Durids'),
+          ('Gypsids', 'Gypsids'),
+          ('Salids', 'Salids'),
+      )
+  ),
+  ('Vertisols', (
+          ('Aquerts', 'Aquerts'),
+          ('Cryerts', 'Cryerts'),
+          ('Torrerts', 'Torrerts'),
+          ('Uderts', 'Uderts'),
+          ('Usterts', 'Usterts'),
+          ('Xererts', 'Xererts'),
+      )
+  ),
+  ('Mollisols', (
+          ('Albolls', 'Albolls'),
+          ('Calcids', 'Calcids'),
+          ('Cryolls', 'Cryolls'),
+          ('Rendolls', 'Rendolls'),
+          ('Udolls', 'Udolls'),
+          ('Ustolls', 'Ustolls'),
+          ('Xerolls', 'Xerolls'),
+      )
+  ),
+  ('Alfisols', (
+          ('Aqualf', 'Aqualf'),
+          ('Cryalf', 'Cryalf'),
+          ('Udalf', 'Udalf'),
+          ('Ustalf', 'Ustalf'),
+          ('Xeralf', 'Xeralf'),
+      )
+  ),
+  ('Spodosols', (
+          ('Aquods', 'Aquods'),
+          ('Cryods', 'Cryods'),
+          ('Humods', 'Humods'),
+          ('Orthods', 'Orthods'),
+      )
+  ),
+  ('Ultisols', (
+          ('Aquults', 'Aquults'),
+          ('Humults', 'Humults'),
+          ('Udults', 'Udults'),
+          ('Usults', 'Usults'),
+          ('Xerults', 'Xerults'),
+      )
+  ),
+  ('Oxisols', (
+          ('Aquox', 'Aquox'),
+          ('Perox', 'Perox'),
+          ('Torrox', 'Torrox'),
+          ('Udox', 'Udox'),
+          ('Ustox', 'Ustox'),
+      )
+  ),
+  ('unknown', 'Unknown'),
+)
