@@ -35,7 +35,7 @@ class SoilOrders(models.Model):
             (ids,'Aridisols'),(erts,'Vertisols'),(ols,'Mollisols'),(alfs,'Alfisols'),(ods,'Spodosols'),(ults,'Ultisols'),(ox,'Oxisols'))
 
     order = models.CharField(max_length=20, choices=orders, unique=True) #
-    order_text = models.CharField(max_length=200)
+    order_text = models.CharField(max_length=200, null=True, blank=True)
     #Somehow use multi-table inheritence to "programmatically create" soil taxonomy
 
 

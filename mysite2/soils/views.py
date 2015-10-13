@@ -21,3 +21,7 @@ def greatgroup_view(request):
     greatgroups_list = GreatGroups.objects.order_by('suborder')
     context = {'greatgroups_list': greatgroups_list}
     return render(request, 'soils/greatgroup_view.html', context)
+
+
+def soil_view(request):
+    return render(request, 'soils/soil_view.html', {})

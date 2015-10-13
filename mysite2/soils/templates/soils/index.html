@@ -35,4 +35,19 @@
                 </p>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <p class="lead text-center">
+                    {% if orders_list %}
+                        <ul>
+                        {% for order in orders_list %}
+                            <li><a href="/soils/{{ order }}/">{{ order }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p>No Soils Exist.</p>
+                    {% endif %}
+                </p>
+            </div>
+        </section>
     {% endblock %}

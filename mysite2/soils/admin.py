@@ -1,6 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
+from .forms import SubOrdersForm
 from .models import  SoilOrders, SubOrders, GreatGroups
 
 # class SoilAdmin(admin.ModelAdmin):
@@ -11,8 +12,9 @@ class SoilOrderAdmin(admin.ModelAdmin):
     fields = ['order','order_text','area']
 
 class SubOrdersAdmin(admin.ModelAdmin):
-    fields  = ['suborder','suborder_text']
-    exclude = ['order', 'order_text']
+    # form = SubOrdersForm
+     fields  = ['suborder','suborder_text']
+     exclude = ['order', 'order_text']
 
 class GreatGroupsAdmin(admin.ModelAdmin):
     fields = ['greatgroup','greatgroup_text']
