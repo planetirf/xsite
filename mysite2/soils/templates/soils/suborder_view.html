@@ -23,15 +23,12 @@
         <section>
             <div class="container">
                 <p class="lead text-center">
-                    {% if suborders_list %}
-                        <ul>
                         {% for suborder in suborders_list %}
+                            {% if suborder.order_id == 1 %}
                             <li><a href="/soils/{{ suborder }}/">{{ suborder }}</a></li>
+                            {% endif %}
+                            <li><a href="/soils/{{ suborder.order }}/">{{ suborder.order }}</a></li>
                         {% endfor %}
-                        </ul>
-                    {% else %}
-                        <p>No Soils Exist.</p>
-                    {% endif %}
                 </p>
             </div>
         </section>
