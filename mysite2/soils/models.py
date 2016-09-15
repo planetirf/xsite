@@ -110,6 +110,7 @@ class SubOrders(models.Model):
               ('Albolls', 'Albolls'),
               ('Aquolls', 'Aquolls'),
               ('Cryolls', 'Cryolls'),
+              ('Gellolls', 'Gellolls'),
               ('Rendolls', 'Rendolls'),
               ('Udolls', 'Udolls'),
               ('Ustolls', 'Ustolls'),
@@ -157,6 +158,8 @@ class SubOrders(models.Model):
     def __str__(self):
                # __unicode__ on Python 2
         return self.suborder
+
+
 
 #create function to switch between different possible suborders for each soil order
 #create a function to prepend the formative element to soil_order --- possibly under def __str__(self): functioN!!!!!

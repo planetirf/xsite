@@ -1,16 +1,16 @@
 {% extends "site_base.html" %}
 {% load i18n %}
 
-
+{% block head_title %}Soil Yourself Silly!!{% endblock %}
 
 {% block body_base %}
     <section class="jumbotron">
         <div class="container">
             {% include "_messages.html" %}
-            <h1>{% blocktrans %}<br>Planet Irf{% endblocktrans %}</h1>
+            <h1>{% blocktrans %}<br>Soil Science Education{% endblocktrans %}</h1>
             <p>
                 {% blocktrans %}
-                Soil Science Education...Dig Up New Adventures!
+                Dig Up New Adventures!
                 {% endblocktrans %}
             </p>
             {% if not user.is_authenticated %}
@@ -23,15 +23,12 @@
         <section>
             <div class="container">
                 <p class="lead text-center">
-                    {% if suborders_list %}
-                        <ul>
                         {% for suborder in suborders_list %}
+                            {% if suborder.order_id == 1 %}
                             <li><a href="/soils/{{ suborder }}/">{{ suborder }}</a></li>
+                            {% endif %}
+                            <li><a href="/soils/{{ suborder.order }}/">{{ suborder.order }}</a></li>
                         {% endfor %}
-                        </ul>
-                    {% else %}
-                        <p>No Soils Exist.</p>
-                    {% endif %}
                 </p>
             </div>
         </section>
